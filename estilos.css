@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+}
+.texto{
+    width: 100%;
+    height: 133px;
+    color: white;
+    
+}
+.texto h1{
+    margin-top: 45px;
+    float: right;
+    font-size: 3.9em;
+}
+.primerFila{
+    background-color: gray;
+    color: white;
+    width: 25%;
+}
+.operacion{
+    background-color:deepskyblue;
+    color: white;
+    width: 25%;
+}
+#mas{
+    height: 170px;
+    position: absolute;
+}
+.igual{
+    background-color:orange;
+    color: white;
+    width: 50.5%;
+}
+.c{
+    background-color:red;
+    color: white;
+    width: 25%;
+}
+.botones button{
+    height: 85px;
+    margin-right: -4;
+    border: 1px;
+    font-size: 1.7em;
+    outline: none;
+}
+.numero{
+    background-color: lightgray; 
+    width: 25%;
+}
+.botones button:hover{
+    opacity: 0.5;
+}
+.pantallaSecreta{
+    margin: 10px;
+    width: 95%;
+}
+.caja{
+    width: 340px;
+    height: 300px;
+    font-size: 1.2em;
+    background-color: ghostwhite;
+    outline: none;
+}
+.pantallaSecreta button{
+    width: 100px;
+    height: 40px;
+    color:white;
+    padding: 5px;
+    border: none;
+    margin-top: 10px;
+}
+.pantallaSecreta h1{
+    color: white;
+    font-size: 2.6em;
+    margin: 20px;
+}
+.pantallaSecreta #cancelar{
+    background-color: red;
+    margin-left:110px; 
+    margin-right: 20px;
+}
+.pantallaSecreta #guardar{
+    background-color: cornflowerblue;
+}
+.nota p{
+    margin: 10px;
+    width: 95%;
+    background-color: aliceblue;
+}
